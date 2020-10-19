@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h2>Técnologías Frontend</h2>
+            <p>Todo desarrollador Frontend debe conocer HTML, CSS y JavaScript</p>
+        </div>
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="ux.svg" alt="">
+            </article>
+
+            <article class="about">
+                <div class="btn-container">
+                    <button class="tab-btn active">HTML</button>
+                    <button class="tab-btn">CSS</button>
+                    <button class="tab-btn">JavaScript</button>
+                </div>
+                
+                <article class="about-content">
+                    <div class="content active" id="HTML">
+                        <h3>HTML</h3>
+                        <h4>Definición</h4>
+                        <p>HTML, HyperText Markup Language, es un lenguaje de etiquetas que define la estructura y significado del contenido web.</p>
+                        <h4>Sintaxis</h4>
+                        <div>
+                            <code>
+                                <<span class="text-blue">h1</span>> Esto es el texto dentro de una etiqueta h1 <<span>/</span><span class="text-blue">h1</span>>
+                            </code>
+                        </div>
+                        <h4>Conceptos relacionados</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i>SEO</li>
+                            <li><i class="fas fa-check"></i>API del navegador</li>
+                            <li><i class="fas fa-check"></i>Accesibilidad y Usabilidad</li>
+                        </ul>
+                    </div>
+    
+                    <div class="content" id="CSS">
+                        <h3>CSS</h3>
+                        <h4>Definición</h4>
+                        <p>CSS, Cascading Style Sheets, es una hoja de estilos donde se le asignan características gráficas a las etiquetas HTML como color, tamaño, posicionamiento, etc</p>
+                        <h4>Sintaxis</h4>
+                        <div>
+                            <code>
+                                <span class="text-orange">h1 </span>{ <span class="text-blue">color</span>: <span class="text-red">#0000ff</span>; }<span class="text-green">/* De esta forma se le asigna el color azul a la letra*/</span>
+                            </code>
+                        </div>
+                        <h4>Conceptos relacionados</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Responsive Design</li>
+                            <li><i class="fas fa-check"></i>Preprocesadores (Sass, Less, Stylus, PostCSS, etc)</li>
+                            <li><i class="fas fa-check"></i>Animaciones</li>
+                            <li><i class="fas fa-check"></i>Frameworks y librerías (Bootstrap, Foundation, Tailwind, Materialize, etc)</li>
+                        </ul>
+                    </div>
+    
+                    <div class="content" id="JavaScript">
+                        <h3>JavaScript</h3>
+                        <h4>Definición</h4>
+                        <p>JavaScript es un lenguaje de programación que permite añadir interactividad al contenido web mediante la lógica del lado del cliente y la manipulación del Document Object Model.</p>
+                        <h4>Sintaxis</h4>
+                        <div>
+                            <code>
+                                <br>
+                                <span class="text-blue">const</span> x = 123 <br>
+                                <span class="text-blue">const</span> y = 321 <br>
+                                <span class="text-blue">const</span> z = x + y <br>
+                                <span class="text-purple">if</span>(z < 500) { <br>
+                                    <span class="text-green">console.log</span>(z + <span class="text-orange">' es menor a 500'</span>) <br>
+                                } else { <br>
+                                    <span class="text-green">console.log</span>(z + <span class="text-orange">' es mayor o igual a 500'</span>) <br>
+                                }
+                            </code>
+                        </div>
+                        <h4>Conceptos relacionados</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i>DOM</li>
+                            <li><i class="fas fa-check"></i>APIs</li>
+                            <li><i class="fas fa-check"></i>Node Package Manager</li>
+                            <li><i class="fas fa-check"></i>Callbacks, Promises & Aysnc await</li>
+                            <li><i class="fas fa-check"></i>Aysnc await</li>
+                            <li><i class="fas fa-check"></i>Paradigmas de progmración (Orientada a objetos, Funcional, Reactiva)</li>
+                            <li><i class="fas fa-check"></i>Module Bundlers (Webpack, Rollup, Parcel)</li>
+                            <li><i class="fas fa-check"></i>Patrones de diseño</li>
+                            <li><i class="fas fa-check"></i>Frameworks y librerias (React, Angular, Vue, Svelte, etc)</li>
+                        </ul>
+                    </div>            
+                </article>
+            </article>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
